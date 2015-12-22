@@ -70,8 +70,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void showResult() {
+
         float secondNumber = Float.parseFloat(textField.getText().toString());
         float total = 0;
+
         if (operation.equals("+")) {
             total = secondNumber + firstNumber;
         }

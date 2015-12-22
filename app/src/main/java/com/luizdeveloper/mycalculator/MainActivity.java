@@ -14,11 +14,13 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         textField = (TextView) findViewById(R.id.textViewResult);
         textField.setText("0");
+
     }
 
     public void buttonClick(View view) {
